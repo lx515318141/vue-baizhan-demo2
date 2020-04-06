@@ -8,6 +8,7 @@
 <script>
 export default {
     name:'Shop',
+    // 路由传参解耦
     props:{
         id:{
             type:[String, Number],
